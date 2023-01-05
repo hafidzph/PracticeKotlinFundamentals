@@ -6,7 +6,7 @@ fun main(){
     newFoldablePhone.switchOn()
     newFoldablePhone.checkPhoneScreenLight()
 }
-open class Phone(open var isScreenLightOn: Boolean = false){
+open class Phone(var isScreenLightOn: Boolean = false){
     open fun switchOn() {
         isScreenLightOn = true
     }

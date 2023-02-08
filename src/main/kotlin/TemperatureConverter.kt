@@ -12,6 +12,6 @@ fun printFinalTemperature(
     finalUnit: String,
     conversionFormula: (Double) -> Double
 ) {
-    val finalMeasurement = String.format("%.2f", conversionFormula(initialMeasurement)) // two decimal places
+    val finalMeasurement = String.format("%.2f", conversionFormula(initialMeasurement))
     println("$initialMeasurement degrees $initialUnit is $finalMeasurement degrees $finalUnit.")
 }
